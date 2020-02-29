@@ -1,24 +1,27 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: Dr. Dipak Agrawal's Medicine Blog
+url: "https://agrawaldipak.github.io/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: App marketing template for Jekyll.
+logo:
+description: Accounts of Interesting Cases from Dr. Agrawal's Clinic.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: Frisco Template
-  links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+  name: Dipak Agrawal
+  email: dipakag.yeotmal@gamil.com
+  twitter:
+
+map:
+  latitude: 20.3824977
+  longitude: 78.1280496
+  address: "Padmavati Hospital, Tilak Wadi, Yavatmal, India"
+  url: https://www.google.com/maps/place/Padmavati+Hospital(+Dr+Deepak+Agrawal)/@20.3826864,78.126097,17z/data=!3m1!4b1!4m5!3m4!1s0x3bd3e8afbdfa7819:0x9cc00562db2a67a6!8m2!3d20.3826814!4d78.128291
+  zoom: 15
 
 # -----
 # Build
@@ -52,16 +55,6 @@ jekyll-archives:
   enabled: ['categories']
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image_path:
-          width: 440
-          height: 440
-          uploads_dir: "/images/staff_members"
   -
     scope:
       path: ""
@@ -101,21 +94,10 @@ defaults:
         height: 1322
         resize_style: cover
 
-# -----------
-# CloudCannon
-
 social_icons:
   - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
   - Email
-  - RSS
 
 _comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+  description: Dr. Dipak Agrawal's Medicine Blog
+  blurb: Accounts of Interesting Cases from Dr. Agrawal's Clinic.
